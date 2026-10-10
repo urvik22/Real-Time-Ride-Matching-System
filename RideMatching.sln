@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideMatching.Api", "src\RideMatching.Api\RideMatching.Api.csproj", "{6AB3DD1A-E4D8-4D17-9B02-854129B88771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideMatching.Tests", "tests\RideMatching.Tests\RideMatching.Tests.csproj", "{A81C9A6D-A6C5-456C-A3EB-75F93C7C56D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideMatching.SignalRClient", "tools\RideMatching.SignalRClient\RideMatching.SignalRClient.csproj", "{36FD09EC-051E-4D31-9B67-B71F93CB7E6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB3DD1A-E4D8-4D17-9B02-854129B88771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB3DD1A-E4D8-4D17-9B02-854129B88771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB3DD1A-E4D8-4D17-9B02-854129B88771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB3DD1A-E4D8-4D17-9B02-854129B88771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81C9A6D-A6C5-456C-A3EB-75F93C7C56D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81C9A6D-A6C5-456C-A3EB-75F93C7C56D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81C9A6D-A6C5-456C-A3EB-75F93C7C56D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81C9A6D-A6C5-456C-A3EB-75F93C7C56D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FD09EC-051E-4D31-9B67-B71F93CB7E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FD09EC-051E-4D31-9B67-B71F93CB7E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FD09EC-051E-4D31-9B67-B71F93CB7E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FD09EC-051E-4D31-9B67-B71F93CB7E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
